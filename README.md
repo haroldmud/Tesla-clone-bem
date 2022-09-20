@@ -1,15 +1,12 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
+# TESLA CLONING PROJECT
 
 > Description the project.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- BEM-CSS
+- NodeJs
 
 ## Live Demo (if available)
 
