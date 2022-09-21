@@ -8,7 +8,7 @@
       href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <title>TESLA | homepage</title>
+    <title>TESLA | Model S</title>
   </head>
   <body class="p-0 m-0">
     <section
@@ -125,7 +125,7 @@
       </section>
       <hr class="md:hidden mt-6" />
     </section>
-    <section>
+    <section class="bg-black">
       <div class="py-20 bg-black mt-">
         <h2 class="text-white text-center font-semibold md:text-4xl text-2xl">
           Interior of the Future
@@ -145,6 +145,39 @@
         src="./images/tesla-intMob.jpeg"
         alt="tesla-interior"
       />
+      <div class="flex pt-16 justify-center">
+        <video
+          autoplay
+          muted
+          loop
+          autplay
+          class="md:w-11/12 w-full rounded-2xl"
+        >
+          <source src="./videos/dark-tesla.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="flex justify-center">
+        <div class="justify-center mx-0 my-auto md:w-1/2 md:p-auto p-2">
+          <div class="flex bottom-4 md:left-12 left-2 md:px-4">
+            <img class="md:mr-2 md:w-4 w-4" src="./icons/circle.png" alt="" />
+            <img class="md:mx-1 md:w-4 w-4" src="./icons/circle.png" alt="" />
+            <img class="md:mx-2 md:w-4 w-4" src="./icons/circle.png" alt="" />
+            <img class="md:mx-1 md:w-4 w-4" src="./icons/circle.png" alt="" />
+            <img class="md:ml-2 md:w-4 w-4" src="./icons/circle.png" alt="" />
+          </div>
+          <div class="text-white">
+            <h2 class="md:px-4 font-bold text-2xl md:pb-0 pb-2">
+              Yoke Steering
+            </h2>
+            <p class="text-white md:p-4 md:text-xl text-xs">
+              A bold new approach gives you a true connection to Model S,
+              offering better steering feel and unobstructed views of your dash
+              and the road ahead. Tap the brake and Model S automatically
+              selects the correct direction to start your trip.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
