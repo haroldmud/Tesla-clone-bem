@@ -8,9 +8,9 @@
 - BEM-CSS
 - NodeJs
 
-## Live Demo (if available)
+## Live Server (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Deployment link](https://haroldmud.github.io/Tesla-clone-bem/)
 
 
 ## Getting Started
